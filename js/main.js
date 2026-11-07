@@ -436,7 +436,12 @@
     const pagination = $('[data-pagination]');
     const empty = $('[data-empty]');
     const resultsCount = $('[data-results-count]');
-    const pageSize = parseInt(grid.dataset.pageSize || '6', 10);
+    const pageSizeForViewport = () => {
+      if (window.matchMedia('(max-width: 640px)').matches) return 3;
+      if (window.matchMedia('(max-width: 900px)').matches) return 6;
+      return 9;
+    };
+    let pageSize = pageSizeForViewport();
     let activeFilter = 'all';
     let page = 1;
 
@@ -504,6 +509,18 @@
     }
 
     render();
+
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const next = pageSizeForViewport();
+        if (next === pageSize) return;
+        pageSize = next;
+        page = 1;
+        render();
+      }, 150);
+    });
   }
 
   initFilterGrid();
