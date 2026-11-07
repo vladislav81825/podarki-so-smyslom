@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /rss.xml
+Allow: /sitemap.xml
+Disallow: /tools/
+Disallow: /content/
+Disallow: /data/
+
+# RSS-лента для Дзена — индексация разрешена
+Sitemap: https://podarki-so-smyslom.ru/sitemap.xml
+Host: podarki-so-smyslom.ru

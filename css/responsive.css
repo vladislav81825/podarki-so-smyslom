@@ -1,0 +1,272 @@
+/* ============================================================
+   Адаптивность: mobile-first поведение поверх базовой сетки
+   ============================================================ */
+
+/* Планшеты и небольшие ноутбуки */
+@media (max-width: 1100px) {
+  :root { --header-h: 68px; }
+
+  .main-nav,
+  .header-cta { display: none; }
+
+  .burger { display: block; }
+
+  .header-actions { margin-left: auto; }
+
+  .hero { padding: 62px 0 54px; }
+
+  .hero__grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .hero__content { max-width: 720px; }
+
+  .hero__visual {
+    width: min(100%, 560px);
+    min-height: 430px;
+    margin: 0 auto;
+  }
+
+  .featured { grid-template-columns: 1fr; }
+
+  .featured__media { min-height: 300px; }
+
+  .featured__body { padding: 32px 30px 36px; }
+
+  .featured__media::after {
+    background: linear-gradient(180deg, transparent 55%, rgba(10, 10, 15, 0.65));
+  }
+
+  .article-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    padding-top: 40px;
+  }
+
+  .share-rail { display: none; }
+
+  .share-inline { display: flex; }
+
+  .content-grid { grid-template-columns: 1fr; gap: 32px; }
+
+  .about-teaser { grid-template-columns: 1fr; padding: 34px; }
+
+  .footer-grid { grid-template-columns: 1.3fr 1fr 1fr; }
+}
+
+/* Планшеты */
+@media (max-width: 900px) {
+  .section { padding: 66px 0; }
+
+  .section-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .articles-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .article-layout { padding-top: 34px; }
+
+  .article-hero { padding-top: 40px; }
+
+  .article-cover img { aspect-ratio: 16 / 9; }
+
+  .values-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    padding: 48px 0 36px;
+  }
+
+  .footer-brand { grid-column: 1 / -1; }
+}
+
+/* Телефоны */
+@media (max-width: 640px) {
+  :root {
+    --header-h: 64px;
+    --radius-xl: 24px;
+    --radius-lg: 18px;
+  }
+
+  .container { width: calc(100% - 32px); }
+
+  .section { padding: 54px 0; }
+
+  .hero { padding: 46px 0 40px; }
+
+  .hero__title { font-size: clamp(2.25rem, 10.5vw, 3.2rem); }
+
+  .hero__sub { margin-top: 18px; font-size: 0.98rem; }
+
+  .hero__actions { margin-top: 26px; gap: 10px; }
+
+  .hero__actions .btn { flex: 1 1 auto; }
+
+  .hero__stats { gap: 14px 28px; margin-top: 32px; padding-top: 22px; }
+
+  .hero-stat strong { font-size: 1.3rem; }
+
+  .hero__visual {
+    min-height: 330px;
+    max-width: 360px;
+    margin-top: 4px;
+  }
+
+  .hero__ring { width: 300px; height: 300px; margin: -150px 0 0 -150px; }
+  .hero__ring--two { width: 220px; height: 220px; margin: -110px 0 0 -110px; }
+  .hero__glow { width: 220px; height: 220px; }
+
+  .hero-card { width: 146px; padding: 8px; border-radius: 16px; }
+  .hero-card--a { top: 8%; left: 4%; }
+  .hero-card--b { top: 28%; right: 2%; width: 160px; }
+  .hero-card--c { display: none; }
+  .hero-card__body { padding: 8px 4px 4px; }
+  .hero-card__title { font-size: 0.66rem; }
+  .hero__badge { display: none; }
+
+  .logo__text { font-size: 0.74rem; }
+  .logo__mark { width: 38px; height: 38px; border-radius: 11px; }
+
+  .articles-grid { grid-template-columns: 1fr; gap: 16px; }
+
+  .category-grid { grid-template-columns: 1fr; gap: 12px; }
+
+  .cat-card { padding: 20px 18px; }
+
+  .featured { min-height: 0; margin-bottom: 16px; }
+
+  .featured__media { min-height: 220px; }
+
+  .featured__body { padding: 24px 22px 28px; gap: 12px; }
+
+  .featured__title { font-size: 1.25rem; }
+
+  .featured__excerpt { font-size: 0.88rem; }
+
+  .card__body { padding: 18px 18px 20px; }
+
+  .about-teaser { padding: 24px; gap: 22px; }
+
+  .about-teaser__quote { font-size: 1.1rem; margin: 16px 0 20px; }
+
+  .rss-card { padding: 22px; }
+
+  .page-hero { padding: 40px 0 32px; }
+
+  .page-hero h1 { font-size: clamp(1.8rem, 8vw, 2.4rem); }
+
+  .category-hero__head { gap: 14px; align-items: flex-start; }
+
+  .category-hero__icon { width: 50px; height: 50px; border-radius: 14px; }
+  .category-hero__icon svg { width: 24px; height: 24px; }
+
+  .article-hero { padding-top: 32px; }
+
+  .article-hero h1 { font-size: clamp(1.8rem, 8vw, 2.5rem); }
+
+  .article-meta { gap: 8px 12px; font-size: 0.76rem; }
+
+  .article-cover { margin-top: 26px; }
+  .article-cover img { aspect-ratio: 16 / 10; }
+
+  .article-layout { padding-top: 28px; }
+
+  .prose { font-size: 1rem; line-height: 1.78; }
+
+  .prose > p:first-of-type::first-letter { font-size: 2.9rem; }
+
+  .prose h2 { margin-top: 1.9em; }
+
+  .prose figure { margin: 1.8em 0; }
+
+  .author-box { flex-direction: column; align-items: flex-start; gap: 14px; padding: 22px; }
+
+  .share-inline { margin-top: 26px; }
+
+  .filters { gap: 6px; }
+
+  .chip { padding: 7px 12px; font-size: 0.74rem; }
+
+  .results-line { align-items: flex-start; flex-direction: column; gap: 4px; }
+
+  .pagination { margin-top: 34px; }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 40px 0 28px;
+  }
+
+  .footer-brand { grid-column: auto; }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding-bottom: 24px;
+  }
+
+  .values-grid { grid-template-columns: 1fr; }
+
+  .content-card { padding: 22px; }
+
+  .error-page { min-height: calc(100vh - var(--header-h)); }
+
+  .search-modal { padding-top: 8vh; }
+
+  .search-dialog { max-height: 80vh; }
+
+  .search-field { padding: 16px 18px; }
+
+  .search-field input { font-size: 0.95rem; }
+
+  .search-result img { width: 62px; height: 46px; }
+
+  .back-to-top { right: 14px; bottom: 14px; }
+
+  .toast { bottom: 18px; max-width: calc(100% - 28px); text-align: center; }
+}
+
+/* Маленькие телефоны */
+@media (max-width: 420px) {
+  .hero-card--b { width: 150px; right: -2%; }
+  .hero-card--a { left: 0; }
+  .hero__stats { gap: 12px 22px; }
+  .hero-stat span { font-size: 0.7rem; }
+  .header-actions { gap: 6px; }
+  .icon-btn, .burger { width: 40px; height: 40px; }
+  .icon-btn svg { width: 17px; height: 17px; }
+  .logo__text span:last-child { display: none; }
+  .logo { gap: 9px; }
+  .prose { font-size: 0.97rem; }
+}
+
+/* Альбомная ориентация на низких экранах */
+@media (max-height: 560px) and (max-width: 900px) {
+  .hero__visual { min-height: 280px; }
+  .hero__ring, .hero__glow { display: none; }
+}
+
+/* Печать */
+@media print {
+  .site-header,
+  .site-footer,
+  .share-inline,
+  .share-rail,
+  .reading-progress,
+  .back-to-top,
+  .related,
+  .ticker { display: none !important; }
+
+  body { background: #fff; color: #111; }
+  .prose { color: #222; }
+  .prose h2, .prose h3 { color: #111; }
+  .article-cover { box-shadow: none; }
+}

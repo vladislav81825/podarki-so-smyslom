@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Подарки со смыслом</title>
+    <link>https://vladislav81825.github.io/podarki-so-smyslom/</link>
+    <description>Журнал о подарках, символике, приметах, цветах и традициях. Помогаем выбирать подарки со смыслом.</description>
+    <language>ru</language>
+    <copyright>© Подарки со смыслом</copyright>
+    <lastBuildDate>Sat, 07 Nov 2026 11:33:25 +0000</lastBuildDate>
+    <atom:link href="https://vladislav81825.github.io/podarki-so-smyslom/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://vladislav81825.github.io/podarki-so-smyslom/assets/images/pion-imperatorskiy-cvetok-s-dvoynym-smyslom-cover.jpg</url>
+      <title>Подарки со смыслом</title>
+      <link>https://vladislav81825.github.io/podarki-so-smyslom/</link>
+    </image>
+
+  </channel>
+</rss>
+
