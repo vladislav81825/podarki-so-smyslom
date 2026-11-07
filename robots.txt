@@ -7,5 +7,5 @@ Disallow: /content/
 Disallow: /data/
 
 # RSS-лента для Дзена — индексация разрешена
-Sitemap: https://podarki-so-smyslom.ru/sitemap.xml
-Host: podarki-so-smyslom.ru
+Sitemap: https://vladislav81825.github.io/podarki-so-smyslom/sitemap.xml
+Host: vladislav81825.github.io
