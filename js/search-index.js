@@ -1,6 +1,91 @@
 /* Автоматически сгенерированный поисковый индекс. Не редактируйте вручную. */
 window.SITE_ARTICLES = [
   {
+    "title": "Гербера: почему ее дарят, когда не знают, что подарить",
+    "url": "articles/gerbera-pochemu-ee-daryat-kogda-ne-znayut-chto-podarit.html",
+    "cover": "assets/images/gerbera-pochemu-ee-daryat-kogda-ne-znayut-chto-podarit-cover.jpg",
+    "excerpt": "Гербера — это цветок, который спасает, когда не знаешь, что подарить. Она яркая, но не пафосная. Веселая, но не глупая.",
+    "category": "cvety",
+    "categoryLabel": "Цветы",
+    "tags": [
+      "подарки",
+      "гербера",
+      "символика",
+      "что подарить",
+      "цветы",
+      "психология"
+    ],
+    "dateLabel": "12 ноября 2026 г."
+  },
+  {
+    "title": "Подарок бабушке: почему она всегда говорит, что не надо было",
+    "url": "articles/podarok-babushke-pochemu-ona-vsegda-govorit-chto-ne-nado-bylo.html",
+    "cover": "assets/images/podarok-babushke-pochemu-ona-vsegda-govorit-chto-ne-nado-bylo-cover.jpg",
+    "excerpt": "Я знаю, что ты скажешь. «Внучка, не надо ничего дарить, у меня все есть». Ты всегда так говоришь.",
+    "category": "psihologiya",
+    "categoryLabel": "Психология",
+    "tags": [
+      "подарки",
+      "бабушке",
+      "символизм",
+      "что подарить",
+      "семья",
+      "психология"
+    ],
+    "dateLabel": "11 ноября 2026 г."
+  },
+  {
+    "title": "Подарок на корпоратив: этикет, который спасает от неловкости",
+    "url": "articles/podarok-na-korporativ-etiket-kotoryy-spasaet-ot-nelovkosti.html",
+    "cover": "assets/images/podarok-na-korporativ-etiket-kotoryy-spasaet-ot-nelovkosti-cover.jpg",
+    "excerpt": "Корпоратив — это странный праздник. С одной стороны, все свои, расслабленная атмосфера. С другой — это работа.",
+    "category": "psihologiya",
+    "categoryLabel": "Психология",
+    "tags": [
+      "подарки",
+      "корпоратив",
+      "этикет",
+      "коллеги",
+      "что подарить",
+      "психология"
+    ],
+    "dateLabel": "10 ноября 2026 г."
+  },
+  {
+    "title": "Подарок ребёнку на годик: что важно знать",
+    "url": "articles/podarok-rebenku-na-godik-chto-vazhno-znat.html",
+    "cover": "assets/images/podarok-rebenku-na-godik-chto-vazhno-znat-cover.jpg",
+    "excerpt": "Первый день рождения — это особый праздник.",
+    "category": "deti",
+    "categoryLabel": "Дети",
+    "tags": [
+      "подарки",
+      "ребенку",
+      "годик",
+      "что подарить",
+      "дети",
+      "подарки детям"
+    ],
+    "dateLabel": "9 ноября 2026 г."
+  },
+  {
+    "title": "Почему нельзя дарить дареное: приметы и этикет",
+    "url": "articles/pochemu-nelzya-darit-darenoe-primety-i-etiket.html",
+    "cover": "assets/images/pochemu-nelzya-darit-darenoe-primety-i-etiket-cover.jpg",
+    "excerpt": "Вы когда-нибудь получали подарок, который явно был не новым? Или сами дарили вещь, которую когда-то подарили вам?",
+    "category": "primety",
+    "categoryLabel": "Приметы",
+    "tags": [
+      "подарки",
+      "приметы",
+      "этикет",
+      "дареное",
+      "что подарить",
+      "традиции"
+    ],
+    "dateLabel": "8 ноября 2026 г."
+  },
+  {
     "title": "Пион: императорский цветок с двойным смыслом",
     "url": "articles/pion-imperatorskiy-cvetok-s-dvoynym-smyslom.html",
     "cover": "assets/images/pion-imperatorskiy-cvetok-s-dvoynym-smyslom-cover.jpg",
